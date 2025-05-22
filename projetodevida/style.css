@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap&#39");
+
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: #E8CDB2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    z-index: 99;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 0 rgb(14, 18, 93),
+        -1px 0 rgb(14, 18, 93),
+        0 1px rgb(14, 18, 93),
+        0 -1px rgb(14, 18, 93),
+        1px 1px rgb(14, 18, 93),
+        -1px -1px rgb(14, 18, 93),
+        1px -1px rgb(14, 18, 93),
+        -1px 1px rgb(14, 18, 93);
+}
+
+nav ul li a:hover {
+    color: rgb(14, 18, 93);
+}
+
+.titulo {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1px;
+    text-shadow: 3px 0 rgb(14, 18, 93),
+        -3px 0 rgb(14, 18, 93),
+        0 3px rgb(14, 18, 93),
+        0 -3px rgb(14, 18, 93),
+        2px 2px rgb(14, 18, 93),
+        -2px -2px rgb(14, 18, 93),
+        2px -2px rgb(14, 18, 93),
+        -2px 2px rgb(14, 18, 93);
+}
+
+.secao-texto {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 2rem;
+    padding-top: 5px;
+    background-color: rgb(14, 18, 93);
+    margin: 15px;
+}
+
+.secao-texto-card {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 2rem;
+    padding-top: 5px;
+    margin: 15px;
+}
+
+.secao-texto-plano {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 2rem;
+    padding-top: 5px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.visao  {
+    color: rgb(14, 18, 93);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 1px;
+    text-shadow: 3px 0 white,
+        -3px 0 white,
+        0 3px white,
+        0 -3px white,
+        2px 2px white,
+        -2px -2px white,
+        2px -2px white,
+        -2px 2px white;
+}
+
+.secao-texto h3 {
+    color: rgb(14, 18, 93);
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.secao-texto p{
+    margin: 15px;
+}
+
+.secao-texto-sobremim {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 90%;
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 15px;
+    
+}
+
+.secao-texto-sobremim h3 {
+    text-align: justify;
+    padding: 10px;
+}
+
+.secao-texto-sobremim ul li::marker {
+    color: white;
+}
+
+.secao-texto-sobremim p {
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.rodape {
+    background-color: rgb(14, 18, 93);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.inicial{
+    position: absolute;
+    bottom: 0
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 18, 93);
+    margin: 15px;
+}
+
+.flex-2-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.flex-2 h3{
+    color: rgb(14, 18, 93);
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.flex-2 p{
+  margin-bottom: 10px;
+}
+
+.flex-2 li{
+    margin-bottom: 10px;
+}
+
+.ajusteimg {
+    text-align: right;
+    width: 105px;
+
+}
+
+.ajusteimgflex-2 {
+    text-align: right;
+    width: 105px;
+    margin: 10px;
+}
+
+.teste {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.eu{
+    background-color: rgb(14, 18, 93);
+    margin: 15px;
+}
+
+.eu h3{
+    color: rgb(14, 18, 93);
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.sonhos{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 5px;
+    background-color: rgb(14, 18, 93);
+    align-items: center;
+    margin: 2px;
+    height: 150px;
+}
+
+.secao-texto-minhavisao{
+    text-align: justify;
+    justify-content: center;
+}
+
+.secao-texto-minhavisao-2{
+    background-color: rgb(14, 18, 93);
+    margin: 15px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.secao-texto-minhavisao-2 p{
+    text-align: justify;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+    
+}
+
+.secao-texto-minhavisao-2 h3{
+    text-align: justify;
+    color: rgb(14, 18, 93);
+    margin: 10px;
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.secao-texto-minhavisao p{
+    text-align: justify;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+}
+
+.secao-texto-minhavisao h3{
+    text-align: justify;
+    color: rgb(14, 18, 93);
+    margin: 15px;
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.secao-texto-meuplano-1{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(14, 18, 93);
+}
+.secao-texto-meuplano-1 h3{
+    text-align: center;
+    color: rgb(14, 18, 93);
+    padding-top: 15px;
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.secao-texto-meuplano-1 p{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.secao-texto-meuplano-1 ul li::marker {
+    color: rgb(14, 18, 93);
+    text-align: center;
+}
+
+.secao-texto-meuplano{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.secao-texto-meuplano h3{
+    text-align: center;
+    color: rgb(14, 18, 93);
+    padding-top: 15px;
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.secao-texto-meuplano p{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.secao-texto-meuplano ul li::marker {
+    color: rgb(14, 18, 93);
+}
+.secao-texto-recursos{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.secao-texto-recursos h3{
+    text-align: justify;
+    color: rgb(14, 18, 93);
+    padding-top: 15px;
+    margin: 15px;
+    text-shadow: 3px 0 white,
+    -3px 0 white,
+    0 3px white,
+    0 -3px white,
+    2px 2px white,
+    -2px -2px white,
+    2px -2px white,
+    -2px 2px white;
+}
+
+.secao-texto-recursos p{
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.secao-texto-recursos ul li::marker{
+    color: white;
+}
+
+.listasites{
+    background-color: rgb(14, 18, 93);
+    margin: 15px ;
+}
+
+.listasites ul li a{
+    color: rgb(5, 7, 36);
+    margin-bottom: 10px;
+}
+
+.listalivros{
+    background-color: rgb(14, 18, 93);
+    margin: 15px ;
+}
+
+.listalivros ul li{
+  margin-bottom: 15px;
+}
+
+.imagemfilmes{
+    display: flex;
+    justify-content: center;
+}
+
+.imagens{
+    margin: 10px;
+    align-items: center;
+    
+}
+
+.imagens img{
+    height: 100%;
+    border-radius: 15px;
+    border: 3px rgb(14, 18, 93) solid;
+    width: 100%;
+
+}
+
